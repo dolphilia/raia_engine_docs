@@ -4,4 +4,9 @@
 
 ### このドキュメントについて
 
-スクリプトベースのゲームエンジン。組み込みJavaScriptエンジン。クロスプラットフォームで動作する。
+### RaiaEngineとは
+
+RaiaEngineはクロスプラットフォームで動作するスクリプトベースのゲームエンジンです。スクリプト言語には組み込み可能なECMAScriptエンジンであるDuktapeを採用しています。DukutapeはES5.0/ES5.1に準拠しているので、使い慣れたJavaScriptのコードやTypeScriptからトランスコンパイルしたコードをそのまま使用することができます。
+
+描画処理にはGoogleの開発したANGLEを採用しており、各プラットフォームに最適なグラフィックAPIが呼び出されます。例えばWindowsであればDirectX、macOSであればMetalAPIが選ばれます。ANGLEはGpenGLES互換レイヤーでもあるため、GpenGLESを利用するウェブやモバイルへの移植も容易になっています。
+
