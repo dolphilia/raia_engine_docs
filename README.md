@@ -21,3 +21,4 @@ RaiaEngineはクロスプラットフォームで動作するスクリプトベ�
 
 描画処理にはGoogleの開発したANGLEを採用しており、各プラットフォームに最適なグラフィックAPIが呼び出されます。例えばWindowsであればDirectX、macOSであればMetalAPIが選ばれます。ANGLEはGpenGLES互換レイヤーでもあるため、GpenGLESを利用するウェブやモバイルへの移植も容易になっています。
 
+RaiaEngineはC言語で記述されており、C/C++による拡張が
